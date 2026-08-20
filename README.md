@@ -34,17 +34,17 @@ These feed into the PyCaret classification model (phishingdetection.pkl), which 
 Project Structure
 
 PhishDefend/
-├── app.py — Flask web app (main entry point)
-├── main.py — CLI script for testing predictions locally
-├── featureExtractor.py — Combines all extracted features into a model-ready row
-├── extractorFunctions.py — Individual feature extraction functions
-├── model/
-│ ├── phishingdetection.pkl — Trained PyCaret classification pipeline
-│ └── pca_model.pkl — PCA model for HTML/JS behavior features
-├── templates/
-│ └── index.html — Frontend UI (Bootstrap 5 + custom cyber theme)
-├── requirements.txt — Python dependencies
-└── README.md
+app.py — Flask web app (main entry point)
+main.py — CLI script for testing predictions locally
+featureExtractor.py — Combines all extracted features into a model-ready row
+extractorFunctions.py — Individual feature extraction functions
+model/
+phishingdetection.pkl — Trained PyCaret classification pipeline
+pca_model.pkl — PCA model for HTML/JS behavior features
+templates/
+index.html — Frontend UI (Bootstrap 5 + custom cyber theme)
+requirements.txt — Python dependencies
+README.md
 
 Getting Started
 
