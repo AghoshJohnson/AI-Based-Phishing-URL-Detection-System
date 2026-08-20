@@ -2,3 +2,4 @@ zenv/
 __pycache__/
 
 logs.log
+.DS_Store
